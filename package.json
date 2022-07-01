@@ -1,0 +1,35 @@
+{
+  "name": "nft-opensea-marketplace",
+  "version": "1.0.0",
+  "description": "Tradeable NFT with OpenSea marketplace integration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justinjdaniel/NFT-OpenSea-marketplace.git"
+  },
+  "keywords": [
+    "nft",
+    "opensea",
+    "marketplace"
+  ],
+  "author": "Justin J Daniel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Justinjdaniel/NFT-OpenSea-marketplace/issues"
+  },
+  "homepage": "https://github.com/Justinjdaniel/NFT-OpenSea-marketplace#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.9.9",
+    "node-fetch": "^2.6.7"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.0"
+  }
+}
